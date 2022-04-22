@@ -419,11 +419,11 @@ section.cta{
 
 
 
-/* CONTACT PAGE */
+/* ABOUT PAGE */
 
 
 
-.contact-header{
+.about-header{
     height: 50vh;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/eduford_img/Background.jpg);
     background-position: center;
@@ -432,7 +432,7 @@ section.cta{
     text-align: center;
 }
 
-.contact-header h1{
+.about-header h1{
     font-size: 2rem;
     color: #fff;
     margin-top: 100px;
@@ -471,6 +471,7 @@ section.cta{
     background-color: transparent;
     border: 1px solid #f44366;
     color: #f44336;
+    cursor: pointer;
 }
 
 .aboutus-btn:hover{
@@ -479,4 +480,109 @@ section.cta{
 
 .contact-header h1{
     color: #fff;
+}
+
+/* COURSE */
+
+.course-header{
+    height: 50vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/eduford_img/Background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.course-header h1{
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 100px;
+}
+
+
+/* BLOG */
+
+
+.row{
+    width: 80%;
+    margin: auto;
+    padding-top: 140px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+
+.right-col{
+    flex-basis: 32%;
+}
+
+.left-col{
+    flex-basis: 65%;
+}
+
+.left-col h2{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.left-col p{
+    padding: 0;
+    color: #999;
+}
+
+.left-col img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.right-col h2{
+    font-size: 1rem;
+    background: #f44336;
+    padding: 7px 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.right-col div{
+    display: flex;
+    flex-basis: 32%;
+    color: #555;
+    box-sizing: border-box;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-col span{
+    text-align: center;
+}
+
+.comment-box{
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 50px 0;
+}
+
+.comment-form input, .comment-form textarea{
+    box-sizing: border-box;
+    width: 100%;
+    background: #f0f0f0;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    outline: none;
+}
+
+.comment-form button{
+    margin: 18px 0;
+}
+
+@media(max-width: 804px){
+    .course-header h1{
+        font-size: 24px;
+    }
 }
