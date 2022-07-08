@@ -598,6 +598,9 @@ section.cta{
     width: 100%;
 }
 
+.contact{
+    width: 80%;
+}
 
 .contact-col{
     flex-basis: 48%;
