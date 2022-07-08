@@ -165,7 +165,8 @@ p.course_para{
 .row{
     display: flex;
     justify-content: space-between;
-    margin: 5% auto 0;
+    margin: auto;
+    margin-top: 5%;
 }
 
 .col{
