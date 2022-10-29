@@ -33,7 +33,7 @@ img.header_logo{
 ul li{
     list-style: none;
     display: inline-block;
-    padding: 1rem 1.4rem;
+    padding: 1rem .8rem;
     position: relative;
 }
 
